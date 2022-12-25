@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #444;
+}
+
+html {
+  /* Percentage of user's browser font size which is 16px by default */
+  /* We set the font size to this percentage in order to make 1rem = 10px 
+     and to make it dynamic in case of user changed the default browser font size */
+  font-size: 62.5%;
+}
