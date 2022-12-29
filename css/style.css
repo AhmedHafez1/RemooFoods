@@ -78,10 +78,9 @@ html {
 
 /* GENERAL */
 .container {
-  max-width: rem;
+  max-width: 120rem;
   margin: 0 auto;
   padding: 1.6rem 3.2rem;
-  background-color: aqua;
 }
 
 .grid {
@@ -242,6 +241,5 @@ html {
 }
 
 .container div {
-  background-color: green;
   padding: 3rem;
 }
